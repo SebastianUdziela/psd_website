@@ -6,4 +6,4 @@
 * CSS
 * Javascript
 
-## [Linkt to the page.](https://sebastianudziela.github.io/zadanie/)
+## [Linkt to the page.](https://sebastianudziela.github.io/psd_website/)
