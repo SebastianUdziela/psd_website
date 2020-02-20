@@ -2,7 +2,7 @@ const days = document.querySelector('.days');
 const hours = document.querySelector('.hours');
 const minutes = document.querySelector('.minutes');
 const seconds = document.querySelector('.seconds');
-const productFille = 'file:///../../example.json';
+const productFile = 'example.json';
 const templateProduct = document.querySelector('#template_product');
 const productContainer = document.querySelector('main .products_container ul');
 const numberProducts = document.querySelectorAll('.products_numbers span');
@@ -39,7 +39,7 @@ getDate()
 })
 
 async function getDate () {
-    const respones =  await fetch(productFille)
+    const respones =  await fetch(productFile)
     const json = await respones.json()
 
     allProduct.push(json.list)
