@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/css/style.css" rel="stylesheet" type="text/css">
+    <link href="./src/css/media.css" rel="stylesheet" type="text/css">
+    <title>Zadanie rekrutacyjne</title>
+</head>
+<body>
+    <header>
+            <div class="banner">
+                <img  id="deskopt_banner" src="./src/images/banner.png" alt="baner">
+                <img  id ="mobile_banner" src="./src/images/mobile_banner.png" alt="baner">
+                <div class="counter">
+                    <div class="wrapper_counter">
+                        <p>Do Końca pozostało:</p>
+                        <div id="numbers">
+                            <span class="days">4 : </span>
+                            <span class="hours">11 : </span>
+                            <span class="minutes">59 : </span>
+                            <span class="seconds">59</span>
+                        </div>
+                        <div class="units">
+                            <span>Dni</span>
+                            <span>Godz</span>
+                            <span>Min</span>
+                            <span>Sek</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <section>
+            <div class="information_bar">
+                <span><img src="./src/images/clock.png" alt="clock" /> Produkty na godzine <strong>10:00</strong></span>
+                <span><img src="./src/images/warning.png" alt="warning" />Akcja “Gorący Czwartek” nie łączy się z innymi promocjami</span>
+            </div>
+            <div class="products_numbers">
+                Zmień ilość pokazywanych produktów:
+                <span data-number="2">2/</span>
+                <span data-number="4">4/</span>
+                <span data-number="8">8</span>
+            </div>
+        </section>
+        <section>
+            <main class="products_container">
+                <div class="products_container">
+                    <ul class="list_products">
+                        <template id="template_product">
+                            <li>
+                                <a href="#">
+                                    <span class="top_bar">
+                                        <img src="./src/images/cart.png" alt="cart">
+                                        <p></p>
+                                        <span>Oszczędzasz: <strong></strong></span>
+                                    </span>
+                                    <div class="wrapper_img">
+                                        <figure>
+                                            <img src="" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="price_product">
+                                        <span></span><s></s>
+                                    </div>
+                                    <div class="about_product">
+                                        <span></span>
+                                        <p></p>
+                                    </div>
+                                </a>
+                            </li>
+                        </template>
+                    </ul>
+                </div>
+            </main>
+        </section>
+    </div>
+    <script src="src/js/main.js"></script>
+</body>
+</html>

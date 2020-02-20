@@ -1,0 +1,323 @@
+@media  screen and (max-width: 1136px) {
+ 
+    .wrapper_counter p {
+        margin-top: 5px;
+     }
+    
+     .counter #numbers span {
+        font-size: 38px;
+     }
+    
+     .counter .units span {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+     }
+}
+
+@media  screen and (max-width: 1136px) {
+
+    .container .information_bar {
+        position: relative;
+        margin-top: 28px;
+        margin-left: 10px
+    }
+    
+    .information_bar span img {
+        margin-right: 10px;
+    }
+    
+    .container .information_bar span {
+        font-size: 16px;
+    }
+    
+     .container .information_bar span:last-child {
+         margin-top: 10px;
+        position: static;
+        display: block;
+     }
+}
+
+@media screen and (max-width:890px) {
+
+    .wrapper_counter p {
+        margin-top: 5px;
+        font-size: 16px;
+        line-height: 29px;
+     }
+    
+     .counter #numbers span {
+        font-size: 28px;
+        line-height: 32px;
+     }
+    
+     .counter .units span {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        padding: 0 3%;
+     }
+
+     .products_container ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+     .products_container ul li  {
+        margin: 10px;
+        width: 40%;
+    }
+
+    .container {
+        max-width: 1528px;
+        margin:0 auto;
+    }
+    
+    .information_bar span img {
+        margin-right: 10px;
+    }
+    
+    .container .information_bar span:last-child {
+        position: absolute;
+        right:0
+     }
+    
+    .container .products_numbers {
+        margin-top: 30px;
+        margin-left: 10px;
+        font-size: 12px;
+     }
+
+     .container .information_bar span:last-child {
+        position: static;
+     }
+    
+    /* products style */
+
+    a .top_bar img {
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    
+    a .top_bar p {
+        font-size: 12px;
+        line-height: 26px;
+        margin-left: 10px;
+        margin-top: 13px;
+    }
+    
+    a .top_bar span {
+        padding: 13px;
+        font-size: 16px
+    }
+    
+     ul a .wrapper_img {
+        margin-top: 70px;
+        text-align: center;
+    }
+    
+    a .wrapper_img img {
+        width: 100%;
+        object-fit: cover
+    }
+    
+     ul a .price_product {
+        margin-top: 60px;
+    }
+    
+    .price_product  s {
+        color: #1a171b;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-left: 16px;
+    }
+    
+    ul a .about_product {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    
+     a .about_product span {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    
+    .wrapper_counter p {
+        margin-top: 5px;
+        font-size: 12px;
+     }
+    
+     .counter #numbers span {
+        font-size: 22px;
+        line-height: 21px;
+     }
+    
+     .counter .units span {
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 12px;
+        padding: 0 2%;
+     }
+
+     .container .information_bar {
+         margin-top: 18px;
+     }
+
+     .container .information_bar span {
+        position: relative;
+        font-size: 13px;
+    }
+
+     a .top_bar img {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    a .top_bar p {
+        font-size: 12px;
+        line-height: 16px;
+        margin-left: 15px;
+        margin-top: 13px;
+    }
+    
+    a .top_bar span {
+        padding: 10px;
+        font-size: 10px
+    }
+    
+     ul a .wrapper_img {
+        margin-top: 60px;
+    }
+    
+    
+     ul a .price_product {
+        margin-top: 50px;
+    }
+    
+    a .price_product span {
+        font-size: 18px;
+        line-height: 22px;
+        margin-left: 24px;
+    }
+    
+    .price_product  s {
+        color: #1a171b;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        margin-left: 16px;
+    }
+    
+    ul a .about_product {
+        margin-top: 12px;
+        margin-left: 16px;
+    }
+    
+     a .about_product  p {
+        font-size: 10px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width:580px) {
+
+    header .banner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #ea2423;
+    }
+
+    header .banner #mobile_banner {
+        display: block;
+    }
+
+    header .banner #deskopt_banner {
+        display:none;
+    }
+
+    header .banner .counter {
+        margin-top: 0px;
+        margin-bottom: 40px;
+        width: 60%;
+        position: sticky;
+    }
+
+    .wrapper_counter p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    
+     .counter #numbers span {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    
+     .counter .units span {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 35px;
+        padding: 0 2%;
+    }
+
+     .products_container .error {
+         text-align: center;
+        font-size: 18px;
+    }
+    
+     a .top_bar {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    a .top_bar img {
+        margin-left: 5px;
+        margin-top: 8px;
+        order: 1;
+    
+    }
+    
+    a .top_bar p {
+        font-size: 10px;
+        line-height: 13px;
+        margin-left: 10px;
+        margin-top: 11px;
+        order:2
+    }
+
+    .container .information_bar span {
+        position: relative;
+        font-size: 10px;
+    }
+
+    a .top_bar span {
+        position: static;
+        order: 0;
+        padding: 6px;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    ul a .wrapper_img {
+        margin-top: 25px;
+    }
+
+    li a .price_product {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width:430px) {
+
+    .a .price_product span {
+        font-size: 16px;
+    }
+
+    .price_product s {
+        font-size: 12px;
+    }
+}

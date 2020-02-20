@@ -1,0 +1,220 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/GothamBook.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Gotham-light';
+    src: url('../fonts/Gotham-ExtraLight.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Gotham';
+    font-size: 18px;
+}
+
+header .banner {
+    position: relative;
+    max-width: 1528px;
+    margin: 0 auto;
+}
+
+header .banner #mobile_banner {
+    display: none;
+}
+
+header img {
+    width: 100%;
+}
+
+header .counter {
+    position: absolute;
+    top:10%;
+    right: 10px;
+    width: 30%;
+    height: 70%;
+    border: 3px solid #ffffff;
+
+}
+
+.counter .wrapper_counter {
+    text-align: center;
+}
+
+.wrapper_counter p {
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 38px;
+    margin-top: 10%;
+    text-transform: uppercase;
+    font-family: 'Gotham-light';
+}
+
+.counter #numbers span {
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 44.56px;
+    text-transform: uppercase;
+}
+
+.counter .units {
+    margin-left: -3%;
+}
+
+.counter .units span {
+    color: #2c2423;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 44px;
+    text-transform: uppercase;
+    padding: 0 4%;
+}
+
+ /* main */
+
+.container {
+    max-width: 1528px;
+    margin:0 auto;
+}
+
+.container .information_bar {
+    position: relative;
+    margin-top: 35px;
+}
+
+.container .information_bar span {
+    color: #1a171b;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.information_bar span img {
+    margin-right: 10px;
+}
+
+.container .information_bar span:last-child {
+    position: absolute;
+    right:0
+}
+
+.container .products_numbers {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+ .container .products_numbers span {
+    color: #ea2423;
+    cursor: pointer;
+}
+
+/* products style */
+
+.products_container {
+    margin-top: 40px;
+}
+
+.products_container .error {
+    font-size: 28px;
+}
+
+.products_container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.products_container ul li  {
+    border: 1px solid #ebebeb;
+    margin: 10px;
+    width: 360px;
+    list-style: none;
+}
+
+.products_container ul a {
+    text-decoration: none;
+    color: #000000;  
+}
+
+li a .top_bar {
+    display: flex;
+    position: relative;
+}
+
+a .top_bar img {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+a .top_bar p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+a .top_bar span {
+    border: 1px solid #ff0000;
+    position: absolute;
+    right: 0;
+    color: #ff0000;
+    padding: 15px;
+    font-size: 15px
+}
+
+ ul a .wrapper_img {
+    margin-top: 100px;
+    text-align: center;
+}
+
+a .wrapper_img img {
+    width: 100%;
+    object-fit: cover
+}
+
+ ul a .price_product {
+    margin-top: 80px;
+}
+
+a .price_product span {
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 24px;
+    text-align: center;
+}
+
+.price_product  s {
+    color: #1a171b;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 16px;
+}
+
+ul a .about_product {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+ a .about_product span {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+a .about_product p {
+    color: #9f9f9f;
+}
