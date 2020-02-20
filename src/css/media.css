@@ -1,6 +1,39 @@
 @media  screen and (max-width: 1136px) {
+
+    .container .information_bar {
+        position: relative;
+        margin-top: 28px;
+        margin-left: 10px;
+        display: block;
+        
+    }
+    
+    .information_bar span img {
+        margin-right: 10px;
+        float: left;
+    }
+    
+    .container .information_bar span {
+        font-size: 16px;
+        display: inline-block;
+    }
+
+    .container .information_bar span:first-child p {
+        float: left;
+    }
  
-    .wrapper_counter p {
+     .container .information_bar span:last-child {
+        margin-top: 10px;
+        position: static;
+        display: block;
+     }
+
+     .container .information_bar span:last-child img {
+        margin-top: 5px;
+    }
+
+
+     .wrapper_counter p {
         margin-top: 5px;
      }
     
@@ -12,29 +45,6 @@
         font-size: 16px;
         font-weight: 700;
         line-height: 20px;
-     }
-}
-
-@media  screen and (max-width: 1136px) {
-
-    .container .information_bar {
-        position: relative;
-        margin-top: 28px;
-        margin-left: 10px
-    }
-    
-    .information_bar span img {
-        margin-right: 10px;
-    }
-    
-    .container .information_bar span {
-        font-size: 16px;
-    }
-    
-     .container .information_bar span:last-child {
-         margin-top: 10px;
-        position: static;
-        display: block;
      }
 }
 
@@ -230,6 +240,7 @@
         flex-wrap: wrap;
         justify-content: center;
         background-color: #ea2423;
+        max-width: 100%;
     }
 
     header .banner #mobile_banner {
@@ -238,6 +249,9 @@
 
     header .banner #deskopt_banner {
         display:none;
+    }
+    .container {
+       max-width: 100%;
     }
 
     header .banner .counter {
@@ -319,5 +333,16 @@
 
     .price_product s {
         font-size: 12px;
+    }
+}
+
+@media screen and (min-width:1580px) {
+
+    header .banner {
+        max-width: 1580px;
+    }
+
+    .container {
+        max-width: 1580px;
     }
 }

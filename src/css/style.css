@@ -87,6 +87,7 @@ header .counter {
 .container .information_bar {
     position: relative;
     margin-top: 35px;
+    display: flex;
 }
 
 .container .information_bar span {
@@ -94,6 +95,8 @@ header .counter {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .information_bar span img {
