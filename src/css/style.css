@@ -21,7 +21,7 @@ html {
 
 header .banner {
     position: relative;
-    max-width: 1528px;
+    max-width: 95%;
     margin: 0 auto;
 }
 
@@ -80,7 +80,7 @@ header .counter {
  /* main */
 
 .container {
-    max-width: 1528px;
+    max-width: 95%;
     margin:0 auto;
 }
 
