@@ -103,9 +103,18 @@ header .counter {
     margin-right: 10px;
 }
 
+.container .information_bar span:last-child img {
+    height: 30px;
+    margin-top: 4px;
+}
+
 .container .information_bar span:last-child {
     position: absolute;
     right:0
+}
+
+.container .information_bar span:last-child img {
+    height: 25px;
 }
 
 .container .products_numbers {
